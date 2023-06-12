@@ -24,10 +24,3 @@ git cherry-pick --abort
 cd ../..
 echo "If cherry-pick fails use https://gerrit.aicp-rom.com/q/topic:twelve-ultralegacy-devices"
 echo ""
-
-#AudioFX
-echo "Removing AudioFX"
-cd  packages/apps/
-rm -rf AudioFX
-cd ../..
-echo ""
